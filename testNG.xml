@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name= "TestNG Session Test Automation Suite">
+<test name= "Walmart Myproject Test">
+
+
+<classes>
+
+<class name="com.walmart.qa.testcases.CreatePageTest"/>
+<class name="com.walmart.qa.testcases.ListsPageTest"/>
+<class name ="com.walmart.qa.testcases.LoginPageTest"/>
+<class name="com.walmart.qa.testcases.MyAccountPageTest"/>
+<class name="com.walmart.qa.testcases.MyrecomPageTest"/>
+<class name="com.walmart.qa.testcases.MyRegsPageTest"/>
+<class name="com.walmart.qa.testcases.OrderTest"/>
+<class name="com.walmart.qa.testcases.PersonalSettingsTest"/>
+<class name="com.walmart.qa.testcases.ShoppingCartTest"/>
+<class name="com.walmart.qa.testcases.WalmartWebPageTest"/>
+
+</classes>
+</test>
+</suite>

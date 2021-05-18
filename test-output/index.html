@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">TestNG Session Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\lenovo\eclipse-workspace\Myproject\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestNG_Session_Test_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 4 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" class="hide-methods failed suite-TestNG_Session_Test_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-TestNG_Session_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" class="show-methods failed suite-TestNG_Session_Test_Automation_Suite"> (show)</a> <!-- show-methods failed suite-TestNG_Session_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNG_Session_Test_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.WalmartWebPageTest" class="method navigator-link" hash-for-method="PaginationTest">PaginationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.CreatePageTest" class="method navigator-link" hash-for-method="createaccount">createaccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.PersonalSettingsTest" class="method navigator-link" hash-for-method="languageChange">languageChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="removeallfromcartTest">removeallfromcartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNG_Session_Test_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" class="hide-methods passed suite-TestNG_Session_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-TestNG_Session_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" class="show-methods passed suite-TestNG_Session_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-TestNG_Session_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNG_Session_Test_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.CreatePageTest" class="method navigator-link" hash-for-method="MyaccounttitlepageTest">MyaccounttitlepageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.PersonalSettingsTest" class="method navigator-link" hash-for-method="PersonalSettingsTest">PersonalSettingsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyrecomPageTest" class="method navigator-link" hash-for-method="RecommendationPageTest">RecommendationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.OrderTest" class="method navigator-link" hash-for-method="RedirectlinkTest">RedirectlinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyRegsPageTest" class="method navigator-link" hash-for-method="RegistriesPageTest">RegistriesPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.OrderTest" class="method navigator-link" hash-for-method="SelectYearTest">SelectYearTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.WalmartWebPageTest" class="method navigator-link" hash-for-method="SortationTest">SortationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyrecomPageTest" class="method navigator-link" hash-for-method="addtocartTest">addtocartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="addtocartfromcartpageTest">addtocartfromcartpageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyAccountPageTest" class="method navigator-link" hash-for-method="cartaccessTest">cartaccessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.WalmartWebPageTest" class="method navigator-link" hash-for-method="filtrationTest">filtrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.ListsPageTest" class="method navigator-link" hash-for-method="listspage">listspage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyAccountPageTest" class="method navigator-link" hash-for-method="orderHistoryTest">orderHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.ShoppingCartTest" class="method navigator-link" hash-for-method="removefromcartTest">removefromcartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.ListsPageTest" class="method navigator-link" hash-for-method="searchfunctionTest">searchfunctionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Session_Test_Automation_Suite" title="com.walmart.qa.testcases.MyRegsPageTest" class="method navigator-link" hash-for-method="weddingandbabyregistry">weddingandbabyregistry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNG_Session_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNG_Session_Test_Automation_Suite" class="panel TestNG_Session_Test_Automation_Suite">
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeallfromcartTest">
+                  </a> <!-- removeallfromcartTest -->
+                  <span class="method-name">removeallfromcartTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span&gt; is not clickable at point (739,634) because another element &lt;div class=&quot;css-uhsczu e7zg2gg1&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAVYARAYALA&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12404, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 98ff7a97-c347-49b2-beb3-52e2765f4723
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.walmart.qa.pages.ShoppingCartPage.removeallfromcart(ShoppingCartPage.java:26)
+	at com.walmart.qa.testcases.ShoppingCartTest.removeallfromcartTest(ShoppingCartTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-failed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.CreatePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createaccount">
+                  </a> <!-- createaccount -->
+                  <span class="method-name">createaccount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #firstName
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAVYARAYALA&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13244, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1549c758-28fd-4cc5-8f10-cf955bf9e92e
+*** Element info: {Using=id, value=firstName}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+	at com.walmart.qa.pages.CreateAccountPage.login1(CreateAccountPage.java:33)
+	at com.walmart.qa.testcases.CreatePageTest.createaccount(CreatePageTest.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-failed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.WalmartWebPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PaginationTest">
+                  </a> <!-- PaginationTest -->
+                  <span class="method-name">PaginationTest</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;div id=&quot;batBeacon170174830018&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAVYARAYALA&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 2792, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c7cb97-a362-408b-8482-be3a8212e59b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at com.walmart.qa.pages.WalmartWebPage.Pagination(WalmartWebPage.java:41)
+	at com.walmart.qa.testcases.WalmartWebPageTest.PaginationTest(WalmartWebPageTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-failed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.PersonalSettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageChange">
+                  </a> <!-- languageChange -->
+                  <span class="method-name">languageChange</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;English&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KAVYARAYALA&apos;, ip: &apos;192.168.163.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13104, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec045e8a-bca9-4e8d-9599-9d805906a122
+*** Element info: {Using=xpath, value=//*[@id=&quot;English&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.walmart.qa.pages.PersonalSettingsPage.languageChange(PersonalSettingsPage.java:22)
+	at com.walmart.qa.testcases.PersonalSettingsTest.languageChange(PersonalSettingsTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-failed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.OrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RedirectlinkTest">
+                  </a> <!-- RedirectlinkTest -->
+                  <span class="method-name">RedirectlinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectYearTest">
+                  </a> <!-- SelectYearTest -->
+                  <span class="method-name">SelectYearTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.ShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocartfromcartpageTest">
+                  </a> <!-- addtocartfromcartpageTest -->
+                  <span class="method-name">addtocartfromcartpageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removefromcartTest">
+                  </a> <!-- removefromcartTest -->
+                  <span class="method-name">removefromcartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.CreatePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyaccounttitlepageTest">
+                  </a> <!-- MyaccounttitlepageTest -->
+                  <span class="method-name">MyaccounttitlepageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.WalmartWebPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortationTest">
+                  </a> <!-- SortationTest -->
+                  <span class="method-name">SortationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filtrationTest">
+                  </a> <!-- filtrationTest -->
+                  <span class="method-name">filtrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.MyRegsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistriesPageTest">
+                  </a> <!-- RegistriesPageTest -->
+                  <span class="method-name">RegistriesPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weddingandbabyregistry">
+                  </a> <!-- weddingandbabyregistry -->
+                  <span class="method-name">weddingandbabyregistry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.MyrecomPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecommendationPageTest">
+                  </a> <!-- RecommendationPageTest -->
+                  <span class="method-name">RecommendationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocartTest">
+                  </a> <!-- addtocartTest -->
+                  <span class="method-name">addtocartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.MyAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartaccessTest">
+                  </a> <!-- cartaccessTest -->
+                  <span class="method-name">cartaccessTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderHistoryTest">
+                  </a> <!-- orderHistoryTest -->
+                  <span class="method-name">orderHistoryTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.PersonalSettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PersonalSettingsTest">
+                  </a> <!-- PersonalSettingsTest -->
+                  <span class="method-name">PersonalSettingsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+          <div class="suite-TestNG_Session_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.walmart.qa.testcases.ListsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listspage">
+                  </a> <!-- listspage -->
+                  <span class="method-name">listspage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchfunctionTest">
+                  </a> <!-- searchfunctionTest -->
+                  <span class="method-name">searchfunctionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Session_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel TestNG_Session_Test_Automation_Suite -->
+        <div panel-name="test-xml-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lenovo\eclipse-workspace\Myproject\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestNG Session Test Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Walmart Myproject Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.CreatePageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.ListsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.MyAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.MyrecomPageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.MyRegsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.OrderTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.PersonalSettingsTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.ShoppingCartTest&quot;/&gt;
+      &lt;class name=&quot;com.walmart.qa.testcases.WalmartWebPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Walmart Myproject Test --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Session Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Session Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Walmart Myproject Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Session Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Session Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Session_Test_Automation_Suite');
+function tableData_TestNG_Session_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'languageChange')
+data.setCell(0, 2, 'com.walmart.qa.testcases.PersonalSettingsTest')
+data.setCell(0, 3, 72444);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createaccount')
+data.setCell(1, 2, 'com.walmart.qa.testcases.CreatePageTest')
+data.setCell(1, 3, 60538);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'weddingandbabyregistry')
+data.setCell(2, 2, 'com.walmart.qa.testcases.MyRegsPageTest')
+data.setCell(2, 3, 57526);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'cartaccessTest')
+data.setCell(3, 2, 'com.walmart.qa.testcases.MyAccountPageTest')
+data.setCell(3, 3, 37678);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SortationTest')
+data.setCell(4, 2, 'com.walmart.qa.testcases.WalmartWebPageTest')
+data.setCell(4, 3, 20762);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'filtrationTest')
+data.setCell(5, 2, 'com.walmart.qa.testcases.WalmartWebPageTest')
+data.setCell(5, 3, 20046);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'RegistriesPageTest')
+data.setCell(6, 2, 'com.walmart.qa.testcases.MyRegsPageTest')
+data.setCell(6, 3, 19133);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'removeallfromcartTest')
+data.setCell(7, 2, 'com.walmart.qa.testcases.ShoppingCartTest')
+data.setCell(7, 3, 17571);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addtocartTest')
+data.setCell(8, 2, 'com.walmart.qa.testcases.MyrecomPageTest')
+data.setCell(8, 3, 15272);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchfunctionTest')
+data.setCell(9, 2, 'com.walmart.qa.testcases.ListsPageTest')
+data.setCell(9, 3, 14591);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addtocartfromcartpageTest')
+data.setCell(10, 2, 'com.walmart.qa.testcases.ShoppingCartTest')
+data.setCell(10, 3, 14132);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'orderHistoryTest')
+data.setCell(11, 2, 'com.walmart.qa.testcases.MyAccountPageTest')
+data.setCell(11, 3, 10793);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'removefromcartTest')
+data.setCell(12, 2, 'com.walmart.qa.testcases.ShoppingCartTest')
+data.setCell(12, 3, 10393);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PersonalSettingsTest')
+data.setCell(13, 2, 'com.walmart.qa.testcases.PersonalSettingsTest')
+data.setCell(13, 3, 10029);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'RecommendationPageTest')
+data.setCell(14, 2, 'com.walmart.qa.testcases.MyrecomPageTest')
+data.setCell(14, 3, 9797);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'listspage')
+data.setCell(15, 2, 'com.walmart.qa.testcases.ListsPageTest')
+data.setCell(15, 3, 4262);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginTest')
+data.setCell(16, 2, 'com.walmart.qa.testcases.LoginPageTest')
+data.setCell(16, 3, 1992);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SelectYearTest')
+data.setCell(17, 2, 'com.walmart.qa.testcases.OrderTest')
+data.setCell(17, 3, 1697);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'PaginationTest')
+data.setCell(18, 2, 'com.walmart.qa.testcases.WalmartWebPageTest')
+data.setCell(18, 3, 509);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'MyaccounttitlepageTest')
+data.setCell(19, 2, 'com.walmart.qa.testcases.CreatePageTest')
+data.setCell(19, 3, 92);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'RedirectlinkTest')
+data.setCell(20, 2, 'com.walmart.qa.testcases.OrderTest')
+data.setCell(20, 3, 24);
+window.suiteTableData['TestNG_Session_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-TestNG_Session_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-TestNG_Session_Test_Automation_Suite">
+              </div> <!-- times-div-TestNG_Session_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Session Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Session_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.CreatePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyaccounttitlepageTest</span>
+                <span class="method-start">22423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createaccount</span>
+                <span class="method-start">42203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102753 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.ListsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listspage</span>
+                <span class="method-start">128079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">135298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchfunctionTest</span>
+                <span class="method-start">172387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186983 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">193372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">220451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">222449 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.MyAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">225332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartaccessTest</span>
+                <span class="method-start">250347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">288029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">290863 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderHistoryTest</span>
+                <span class="method-start">311208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">322005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.MyrecomPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">325275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RecommendationPageTest</span>
+                <span class="method-start">368275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">378076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">380848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addtocartTest</span>
+                <span class="method-start">435067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">450342 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.MyRegsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">453608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistriesPageTest</span>
+                <span class="method-start">493346 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">512482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">515390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">weddingandbabyregistry</span>
+                <span class="method-start">561415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">618944 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.OrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">622182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectYearTest</span>
+                <span class="method-start">654563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">656264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">659194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RedirectlinkTest</span>
+                <span class="method-start">688474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">688501 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.PersonalSettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">691645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">languageChange</span>
+                <span class="method-start">728738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">801187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">804017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PersonalSettingsTest</span>
+                <span class="method-start">845279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">855311 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.ShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">857810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addtocartfromcartpageTest</span>
+                <span class="method-start">880325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">894459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">896910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removefromcartTest</span>
+                <span class="method-start">928685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">939080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">942624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">removeallfromcartTest</span>
+                <span class="method-start">966916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">984492 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.walmart.qa.testcases.WalmartWebPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">987495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filtrationTest</span>
+                <span class="method-start">1015229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1035278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1038818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PaginationTest</span>
+                <span class="method-start">1069354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1069873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1074538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SortationTest</span>
+                <span class="method-start">1141486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1162253 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

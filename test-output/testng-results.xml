@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="17" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T18:29:02 EDT" name="TestNG Session Test Automation Suite" finished-at="2021-05-12T18:48:27 EDT" duration-ms="1164907">
+    <groups>
+    </groups>
+    <test started-at="2021-05-12T18:29:02 EDT" name="Walmart Myproject Test" finished-at="2021-05-12T18:48:27 EDT" duration-ms="1164907">
+      <class name="com.walmart.qa.testcases.ShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:43:20 EDT" name="setUp" finished-at="2021-05-12T18:43:43 EDT" duration-ms="22515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addtocartfromcartpageTest()[pri:1, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:43:43 EDT" name="addtocartfromcartpageTest" finished-at="2021-05-12T18:43:57 EDT" duration-ms="14132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartfromcartpageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:43:57 EDT" name="tearDown" finished-at="2021-05-12T18:43:59 EDT" duration-ms="2449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:43:59 EDT" name="setUp" finished-at="2021-05-12T18:44:31 EDT" duration-ms="31774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removefromcartTest()[pri:2, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:44:31 EDT" name="removefromcartTest" finished-at="2021-05-12T18:44:41 EDT" duration-ms="10393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removefromcartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:44:41 EDT" name="tearDown" finished-at="2021-05-12T18:44:45 EDT" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:44:45 EDT" name="setUp" finished-at="2021-05-12T18:45:09 EDT" duration-ms="24292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeallfromcartTest()[pri:3, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:45:09 EDT" name="removeallfromcartTest" finished-at="2021-05-12T18:45:27 EDT" duration-ms="17571" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (739,634) because another element <div class="css-uhsczu e7zg2gg1"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12404, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 98ff7a97-c347-49b2-beb3-52e2765f4723]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (739,634) because another element <div class="css-uhsczu e7zg2gg1"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 12404, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 98ff7a97-c347-49b2-beb3-52e2765f4723
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.walmart.qa.pages.ShoppingCartPage.removeallfromcart(ShoppingCartPage.java:26)
+at com.walmart.qa.testcases.ShoppingCartTest.removeallfromcartTest(ShoppingCartTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeallfromcartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ShoppingCartTest@647e447]" started-at="2021-05-12T18:45:27 EDT" name="tearDown" finished-at="2021-05-12T18:45:30 EDT" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.ShoppingCartTest -->
+      <class name="com.walmart.qa.testcases.MyAccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:32:48 EDT" name="setUp" finished-at="2021-05-12T18:33:13 EDT" duration-ms="25014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartaccessTest()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:33:13 EDT" name="cartaccessTest" finished-at="2021-05-12T18:33:50 EDT" duration-ms="37678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartaccessTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:33:50 EDT" name="tearDown" finished-at="2021-05-12T18:33:53 EDT" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:33:53 EDT" name="setUp" finished-at="2021-05-12T18:34:14 EDT" duration-ms="20344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:34:14 EDT" name="orderHistoryTest" finished-at="2021-05-12T18:34:24 EDT" duration-ms="10793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyAccountPageTest@1cbbffcd]" started-at="2021-05-12T18:34:24 EDT" name="tearDown" finished-at="2021-05-12T18:34:28 EDT" duration-ms="3268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.MyAccountPageTest -->
+      <class name="com.walmart.qa.testcases.ListsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:30:48 EDT" name="setUp" finished-at="2021-05-12T18:31:10 EDT" duration-ms="22312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="listspage()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:31:10 EDT" name="listspage" finished-at="2021-05-12T18:31:15 EDT" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listspage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:31:15 EDT" name="tearDown" finished-at="2021-05-12T18:31:18 EDT" duration-ms="2950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:31:18 EDT" name="setUp" finished-at="2021-05-12T18:31:55 EDT" duration-ms="37088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchfunctionTest()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:31:55 EDT" name="searchfunctionTest" finished-at="2021-05-12T18:32:09 EDT" duration-ms="14591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchfunctionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.ListsPageTest@3daa422a]" started-at="2021-05-12T18:32:09 EDT" name="tearDown" finished-at="2021-05-12T18:32:16 EDT" duration-ms="6387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.ListsPageTest -->
+      <class name="com.walmart.qa.testcases.MyRegsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:36:36 EDT" name="setUp" finished-at="2021-05-12T18:37:16 EDT" duration-ms="39737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegistriesPageTest()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:37:16 EDT" name="RegistriesPageTest" finished-at="2021-05-12T18:37:35 EDT" duration-ms="19133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistriesPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:37:35 EDT" name="tearDown" finished-at="2021-05-12T18:37:38 EDT" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:37:38 EDT" name="setUp" finished-at="2021-05-12T18:38:24 EDT" duration-ms="46025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="weddingandbabyregistry()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:38:24 EDT" name="weddingandbabyregistry" finished-at="2021-05-12T18:39:21 EDT" duration-ms="57526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weddingandbabyregistry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyRegsPageTest@7ed7259e]" started-at="2021-05-12T18:39:21 EDT" name="tearDown" finished-at="2021-05-12T18:39:25 EDT" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.MyRegsPageTest -->
+      <class name="com.walmart.qa.testcases.WalmartWebPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:45:30 EDT" name="setUp" finished-at="2021-05-12T18:45:58 EDT" duration-ms="27733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filtrationTest()[pri:1, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:45:58 EDT" name="filtrationTest" finished-at="2021-05-12T18:46:18 EDT" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:46:18 EDT" name="tearDown" finished-at="2021-05-12T18:46:21 EDT" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:46:21 EDT" name="setUp" finished-at="2021-05-12T18:46:52 EDT" duration-ms="30535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PaginationTest()[pri:2, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:46:52 EDT" name="PaginationTest" finished-at="2021-05-12T18:46:52 EDT" duration-ms="509" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <div id="batBeacon170174830018"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 2792, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c7cb97-a362-408b-8482-be3a8212e59b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <div id="batBeacon170174830018"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 2792, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7c7cb97-a362-408b-8482-be3a8212e59b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+at com.walmart.qa.pages.WalmartWebPage.Pagination(WalmartWebPage.java:41)
+at com.walmart.qa.testcases.WalmartWebPageTest.PaginationTest(WalmartWebPageTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaginationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:46:52 EDT" name="tearDown" finished-at="2021-05-12T18:46:57 EDT" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:46:57 EDT" name="setUp" finished-at="2021-05-12T18:48:04 EDT" duration-ms="66947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SortationTest()[pri:3, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:48:04 EDT" name="SortationTest" finished-at="2021-05-12T18:48:25 EDT" duration-ms="20762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.WalmartWebPageTest@41fbdac4]" started-at="2021-05-12T18:48:25 EDT" name="tearDown" finished-at="2021-05-12T18:48:27 EDT" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.WalmartWebPageTest -->
+      <class name="com.walmart.qa.testcases.PersonalSettingsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:40:34 EDT" name="setUp" finished-at="2021-05-12T18:41:11 EDT" duration-ms="37092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="languageChange()[pri:1, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:41:11 EDT" name="languageChange" finished-at="2021-05-12T18:42:24 EDT" duration-ms="72444" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id="English"]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13104, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec045e8a-bca9-4e8d-9599-9d805906a122
+*** Element info: {Using=xpath, value=//*[@id="English"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="English"]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13104, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ec045e8a-bca9-4e8d-9599-9d805906a122
+*** Element info: {Using=xpath, value=//*[@id="English"]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.walmart.qa.pages.PersonalSettingsPage.languageChange(PersonalSettingsPage.java:22)
+at com.walmart.qa.testcases.PersonalSettingsTest.languageChange(PersonalSettingsTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageChange -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:42:24 EDT" name="tearDown" finished-at="2021-05-12T18:42:26 EDT" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:42:26 EDT" name="setUp" finished-at="2021-05-12T18:43:08 EDT" duration-ms="41262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="PersonalSettingsTest()[pri:2, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:43:08 EDT" name="PersonalSettingsTest" finished-at="2021-05-12T18:43:18 EDT" duration-ms="10029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalSettingsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.PersonalSettingsTest@3427b02d]" started-at="2021-05-12T18:43:18 EDT" name="tearDown" finished-at="2021-05-12T18:43:20 EDT" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.PersonalSettingsTest -->
+      <class name="com.walmart.qa.testcases.CreatePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:29:02 EDT" name="setUp" finished-at="2021-05-12T18:29:25 EDT" duration-ms="22418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MyaccounttitlepageTest()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:29:25 EDT" name="MyaccounttitlepageTest" finished-at="2021-05-12T18:29:25 EDT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyaccounttitlepageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:29:25 EDT" name="tearDown" finished-at="2021-05-12T18:29:28 EDT" duration-ms="3033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:29:28 EDT" name="setUp" finished-at="2021-05-12T18:29:45 EDT" duration-ms="16631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createaccount()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:29:45 EDT" name="createaccount" finished-at="2021-05-12T18:30:45 EDT" duration-ms="60538" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #firstName
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13244, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1549c758-28fd-4cc5-8f10-cf955bf9e92e
+*** Element info: {Using=id, value=firstName}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #firstName
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAVYARAYALA', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210427185821, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13244, moz:profile: C:\Users\lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1549c758-28fd-4cc5-8f10-cf955bf9e92e
+*** Element info: {Using=id, value=firstName}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.walmart.qa.pages.CreateAccountPage.login1(CreateAccountPage.java:33)
+at com.walmart.qa.testcases.CreatePageTest.createaccount(CreatePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.CreatePageTest@cd3fee8]" started-at="2021-05-12T18:30:45 EDT" name="tearDown" finished-at="2021-05-12T18:30:48 EDT" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.CreatePageTest -->
+      <class name="com.walmart.qa.testcases.OrderTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:39:25 EDT" name="setUp" finished-at="2021-05-12T18:39:57 EDT" duration-ms="32380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SelectYearTest()[pri:1, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:39:57 EDT" name="SelectYearTest" finished-at="2021-05-12T18:39:59 EDT" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectYearTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:39:59 EDT" name="tearDown" finished-at="2021-05-12T18:40:02 EDT" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:40:02 EDT" name="setUp" finished-at="2021-05-12T18:40:31 EDT" duration-ms="29279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RedirectlinkTest()[pri:2, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:40:31 EDT" name="RedirectlinkTest" finished-at="2021-05-12T18:40:31 EDT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RedirectlinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.OrderTest@28eaa59a]" started-at="2021-05-12T18:40:31 EDT" name="tearDown" finished-at="2021-05-12T18:40:34 EDT" duration-ms="3143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.OrderTest -->
+      <class name="com.walmart.qa.testcases.MyrecomPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:34:28 EDT" name="setUp" finished-at="2021-05-12T18:35:11 EDT" duration-ms="43000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RecommendationPageTest()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:35:11 EDT" name="RecommendationPageTest" finished-at="2021-05-12T18:35:20 EDT" duration-ms="9797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecommendationPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:35:20 EDT" name="tearDown" finished-at="2021-05-12T18:35:23 EDT" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:35:23 EDT" name="setUp" finished-at="2021-05-12T18:36:17 EDT" duration-ms="54219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addtocartTest()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:36:17 EDT" name="addtocartTest" finished-at="2021-05-12T18:36:33 EDT" duration-ms="15272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.MyrecomPageTest@3d51f06e]" started-at="2021-05-12T18:36:33 EDT" name="tearDown" finished-at="2021-05-12T18:36:36 EDT" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.MyrecomPageTest -->
+      <class name="com.walmart.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.walmart.qa.testcases.LoginPageTest@31c88ec8]" started-at="2021-05-12T18:32:16 EDT" name="setUp" finished-at="2021-05-12T18:32:43 EDT" duration-ms="27079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:com.walmart.qa.testcases.LoginPageTest@31c88ec8]" started-at="2021-05-12T18:32:43 EDT" name="loginTest" finished-at="2021-05-12T18:32:45 EDT" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.walmart.qa.testcases.LoginPageTest@31c88ec8]" started-at="2021-05-12T18:32:45 EDT" name="tearDown" finished-at="2021-05-12T18:32:48 EDT" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.qa.testcases.LoginPageTest -->
+    </test> <!-- Walmart Myproject Test -->
+  </suite> <!-- TestNG Session Test Automation Suite -->
+</testng-results>
